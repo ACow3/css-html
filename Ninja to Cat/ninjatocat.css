@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.switch{
+    width: 200px;
+    display: block;
+    margin: 10px;
+}

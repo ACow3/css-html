@@ -1,0 +1,34 @@
+.container{
+    width: 1024px;
+    height: 400px;
+
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #B3B3B3;
+    font-size: 26pt;
+
+}
+
+.main-content{
+    width: 100%;
+    height: 160px;
+    background-color: #CCCCCC;
+    font-size: 16pt;
+}
+
+.footer{
+        width: 100%;
+        height: 70px;
+        background-color: #FFFF99;
+        font-size: 14pt;
+}
+@media only screen and (max-width: 480px){
+    .h1{
+    display: none;
+    }
+    .h2{
+    display: none;
+}
+}

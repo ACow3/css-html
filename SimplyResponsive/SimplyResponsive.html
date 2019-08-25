@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conent="width=device-width,intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" ref="text/css" href="simply.css">
+    <title>Simply Responsive</title>
+
+    <style>
+    
+    .container{
+    width: 1024px;
+    height: 400px;
+
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #B3B3B3;
+    font-size: 26pt;
+
+}
+
+.main-content{
+    width: 100%;
+    height: 160px;
+    background-color: #CCCCCC;
+    font-size: 16pt;
+}
+
+.footer{
+        width: 100%;
+        height: 70px;
+        background-color: #FFFF99;
+        font-size: 14pt;
+}
+@media only screen and (max-width: 480px){
+    .footer{
+    display: none;
+    }
+}
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <p>@media queries</p>
+            </div>
+
+            <div class="main-content">
+                <p>CSS uses the @media rule to detect information about the device being used to access the website. For example, it can be used to detect the size of the device, its capabilities, and its orientation. For the course, we will be using it to detect the device size, but keep in mind that it is capable of much more.</p>
+            </div>
+
+            <div class="footer">
+                <h3>Phone: Width less than or equal to 480px</h3>
+                <h2>Tablet: Width between 481px and 1023px</h2>
+                <h1>Desktop: Width greater than or equal to 1024px</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

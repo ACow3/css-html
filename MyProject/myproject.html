@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>My Project</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <script>
+
+
+
+    $(document).ready(function () {
+      $("img").hide();
+
+      $(".btn-primary").click(function () {
+        $("img").show();
+        console.log("button clicked");
+
+        $(".btn-success").click(function () {
+          $("img").hide();
+
+        })
+
+      })
+
+    })
+
+  </script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button id="hello" class="navbar-brand btn btn-danger">Hello!</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="file:///Users/celenealva/Desktop/MyProject/MyProject.html">Alex
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/mc_numma3/?hl=en">Mikayla</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.brownsugayogini.com/about">Dominique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/stephcowling">Stephanie</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+
+    <header class="jumbotron my-4">
+      <h1 class="display-3">The Cowling Family</h1>
+      <p class="lead">Hey everyone, I wanted to make my project about something that meant a lot to me. As with most
+        folks, my family is pretty important to me, so I figured I'd share a little bit with you all! I hope you enjoy.
+      </p>
+      <img src="Family.jpg">
+      <button class="btn btn-primary btn-lg">Meet My Family</button>
+      <p1 onclick="alert ('Click event triggered')"></p1>
+    </header>
+
+
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="Steph_track.jpg" data-alt-src="Cowling_Rich_Fam.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Stephanie</h4>
+            <p class="card-text">Ran track at UC Berkeley. Lives in Upstate New York with her husband, Peter and their
+              2-year-old son, Savion. Current Senior Academic Advisor at Cornell University.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.linkedin.com/in/stephcowling" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 switch">
+          <img class="card-img-top switch" src="Dominique Cowling Volleyball.jpg"
+            data-alt-src="Dominique_Cowling_Yogi.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Dominique</h4>
+            <p class="card-text">Played volleyball at UC Riverside. YOGI. Dedicating her life to becoming a healer.
+              LGBTQ+ Activist & DV counselor.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.brownsugayogini.com/about" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 switch">
+          <img class="card-img-top" src="Mikayla Cowling.JPG" data-alt-src="Meekies.jpg">
+          <div class="card-body">
+            <h4 class="card-title">Mikayla</h4>
+            <p class="card-text">Played basketball at CAL. Drafted 3rd round in the WNBA April 2018. Currently plays
+              overseas. Style God.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.instagram.com/mc_numma3/?hl=en" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 switch">
+          <img class="card-img-top switch" src='Alex_Cowling.jpg' data-alt-src='Sil.jpg'>
+          <div class="card-body">
+            <h4 class="card-title">Alex</h4>
+            <p class="card-text">Former Loyola Marymount basketball player. Youth coach. Dog Mom. Future Web Developer.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-success">See You Again Soon!</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">An Alex Cowling Production</p>
+    </div>
+
+  </footer>
+
+  <script>
+    $("#hello").click(function () {
+      alert("Hey I'm Alex! I'd like to introduce you to my family...");
+
+      $("img").click(function () {
+        $(this).replaceWith("<img src=" + $(this).attr("data-alt-src") + ">")
+      });
+
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
